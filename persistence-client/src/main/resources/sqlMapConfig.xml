@@ -1,0 +1,12 @@
+<configuration>
+    <!--    数据库配置信息  -->
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///persistence"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="fdae3b28269d4cd79b74c77b4504599b"></property>
+    </dataSource>
+
+    <!--    存放 *Mapper.xml的全路径  -->
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>

@@ -1,0 +1,11 @@
+<mapper namespace="com.future.dao.UserDao">
+
+    <select id="selectAll" resultType="com.future.db.User">
+        select * from user
+    </select>
+
+    <select id="selectOne" paramType="com.future.db.User" resultType="com.future.db.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+</mapper>
